@@ -1,0 +1,23 @@
+#!/usr/bin/perl
+#helloperlvV2.pl by Steven D. Morrison
+#this is my first perl script that is not just a copy of a lecture or course scripts 
+
+use 5.18.0
+use warnings;
+
+say "hello, world! My Name is Steven";
+say "What is your name?";
+my $name = <stdin>;
+say "How Are you doing today $name?";
+
+my $mood = <stdin>;
+
+# this is an array indicating possitive inputs to the question
+my @positive = ("good",“alright”,”decent”,”fine”,”well”,”OK”,“ok”,”okay”,”satisfactory”)
+
+if($mood eq @answer){
+     say "I am happy to hear that you are doing $mood";
+}else{
+     say "I am sorry to hear that you are feeling $mood today";
+}  
+
